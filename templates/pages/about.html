@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}About Me{% endblock title %}
+{% load static %}
+
+{% block content %}
+
+<section class="about-section center-row">
+    <div class="about-image-container center-row">
+        <img src="{% static './img/me.jpg' %}">
+    </div>
+
+    <div class="about-description-container center-column">
+        <h1>My Role as a Developer | Professional</h1>
+        <h2>Hi! My Name is Jesse!</h2>
+
+        <p>I Live in Labelle, Florida with my two kids and husband. I have six cats, a dog, and a fish. I enjoy swimming and hanging with the kids.</p>
+
+        <p>I am a web designer, that can code as well.I hope to take the knowledge that i have gained in the program and use them in the real world by at first getting better at my skills.</p>
+
+
+        <p>I plan on continuing my education further so i can get better in the futher and maybe open up my own company.An i would like to dive into cybersecurity as well. </p>
+        
+        <div class="skills-container center-column">
+            <h2>My Skills</h2>
+
+            <div class="skills-list center-row">
+                <label class="skills-label"> CSS </label>
+                <label class="skills-label"> HTML </label>
+                <label class="skills-label"> JavaScript </label>
+                <label class="skills-label"> Django </label>
+                <label class="skills-label"> Python </label>
+                <label class="skills-label"> React </label>
+                <label class="skills-label"> Figma </label>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
